@@ -1,0 +1,2633 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeMinGWFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mingw32-make.exe"
+    candidate_directories:
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files (x86)/ZeroTier/One/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/"
+      - "C:/TDM-GCC-64/bin/"
+      - "C:/Users/Kurosuba/Assembler/nasm-3.01-win64/nasm-3.01/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Kurosuba/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/Kurosuba/AppData/Local/Google/Cloud SDK/google-cloud-sdk/bin/"
+      - "/REGISTRY-NOTFOUND/bin/"
+      - "c:/MinGW/bin/"
+      - "/MinGW/bin/"
+      - "/REGISTRY-NOTFOUND/MinGW/bin/"
+    searched_directories:
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/mingw32-make.exe.com"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/mingw32-make.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/mingw32-make.exe.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/mingw32-make.exe"
+      - "C:/Windows/System32/mingw32-make.exe.com"
+      - "C:/Windows/System32/mingw32-make.exe"
+      - "C:/Windows/mingw32-make.exe.com"
+      - "C:/Windows/mingw32-make.exe"
+      - "C:/Windows/System32/wbem/mingw32-make.exe.com"
+      - "C:/Windows/System32/wbem/mingw32-make.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mingw32-make.exe.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mingw32-make.exe"
+      - "C:/Windows/System32/OpenSSH/mingw32-make.exe.com"
+      - "C:/Windows/System32/OpenSSH/mingw32-make.exe"
+      - "C:/ProgramData/chocolatey/bin/mingw32-make.exe.com"
+      - "C:/ProgramData/chocolatey/bin/mingw32-make.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mingw32-make.exe.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mingw32-make.exe"
+      - "C:/Program Files (x86)/ZeroTier/One/mingw32-make.exe.com"
+      - "C:/Program Files (x86)/ZeroTier/One/mingw32-make.exe"
+      - "C:/Program Files/Git/cmd/mingw32-make.exe.com"
+      - "C:/Program Files/Git/cmd/mingw32-make.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/mingw32-make.exe.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/mingw32-make.exe"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/mingw32-make.exe.com"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/mingw32-make.exe"
+      - "C:/TDM-GCC-64/bin/mingw32-make.exe.com"
+    found: "C:/TDM-GCC-64/bin/mingw32-make.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files (x86)\\ZeroTier\\One\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Cloudflare\\Cloudflare WARP\\"
+        - "C:\\TDM-GCC-64\\bin"
+        - "C:\\Users\\Kurosuba\\Assembler\\nasm-3.01-win64\\nasm-3.01"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Google\\Cloud SDK\\google-cloud-sdk\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompiler.cmake:63 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:64 (_cmake_find_compiler)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER"
+    description: "C compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: false
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "cc"
+      - "gcc"
+      - "cl"
+      - "bcc"
+      - "xlc"
+      - "icx"
+      - "clang"
+    candidate_directories:
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files (x86)/ZeroTier/One/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/"
+      - "C:/TDM-GCC-64/bin/"
+      - "C:/Users/Kurosuba/Assembler/nasm-3.01-win64/nasm-3.01/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Kurosuba/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/Kurosuba/AppData/Local/Google/Cloud SDK/google-cloud-sdk/bin/"
+    searched_directories:
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/cc.com"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/cc.exe"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/cc"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/gcc.com"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/gcc.exe"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/gcc"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/cl.com"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/cl.exe"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/cl"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/bcc.com"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/bcc.exe"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/bcc"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/xlc.com"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/xlc.exe"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/xlc"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/icx.com"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/icx.exe"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/icx"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/clang.com"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/clang.exe"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/clang"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/cc.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/cc.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/cc"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/cl.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/cl.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/cl"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/bcc.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/bcc.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/bcc"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/xlc.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/xlc.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/xlc"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/icx.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/icx.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/icx"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/clang.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/clang.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/clang"
+      - "C:/Windows/System32/cc.com"
+      - "C:/Windows/System32/cc.exe"
+      - "C:/Windows/System32/cc"
+      - "C:/Windows/System32/gcc.com"
+      - "C:/Windows/System32/gcc.exe"
+      - "C:/Windows/System32/gcc"
+      - "C:/Windows/System32/cl.com"
+      - "C:/Windows/System32/cl.exe"
+      - "C:/Windows/System32/cl"
+      - "C:/Windows/System32/bcc.com"
+      - "C:/Windows/System32/bcc.exe"
+      - "C:/Windows/System32/bcc"
+      - "C:/Windows/System32/xlc.com"
+      - "C:/Windows/System32/xlc.exe"
+      - "C:/Windows/System32/xlc"
+      - "C:/Windows/System32/icx.com"
+      - "C:/Windows/System32/icx.exe"
+      - "C:/Windows/System32/icx"
+      - "C:/Windows/System32/clang.com"
+      - "C:/Windows/System32/clang.exe"
+      - "C:/Windows/System32/clang"
+      - "C:/Windows/cc.com"
+      - "C:/Windows/cc.exe"
+      - "C:/Windows/cc"
+      - "C:/Windows/gcc.com"
+      - "C:/Windows/gcc.exe"
+      - "C:/Windows/gcc"
+      - "C:/Windows/cl.com"
+      - "C:/Windows/cl.exe"
+      - "C:/Windows/cl"
+      - "C:/Windows/bcc.com"
+      - "C:/Windows/bcc.exe"
+      - "C:/Windows/bcc"
+      - "C:/Windows/xlc.com"
+      - "C:/Windows/xlc.exe"
+      - "C:/Windows/xlc"
+      - "C:/Windows/icx.com"
+      - "C:/Windows/icx.exe"
+      - "C:/Windows/icx"
+      - "C:/Windows/clang.com"
+      - "C:/Windows/clang.exe"
+      - "C:/Windows/clang"
+      - "C:/Windows/System32/wbem/cc.com"
+      - "C:/Windows/System32/wbem/cc.exe"
+      - "C:/Windows/System32/wbem/cc"
+      - "C:/Windows/System32/wbem/gcc.com"
+      - "C:/Windows/System32/wbem/gcc.exe"
+      - "C:/Windows/System32/wbem/gcc"
+      - "C:/Windows/System32/wbem/cl.com"
+      - "C:/Windows/System32/wbem/cl.exe"
+      - "C:/Windows/System32/wbem/cl"
+      - "C:/Windows/System32/wbem/bcc.com"
+      - "C:/Windows/System32/wbem/bcc.exe"
+      - "C:/Windows/System32/wbem/bcc"
+      - "C:/Windows/System32/wbem/xlc.com"
+      - "C:/Windows/System32/wbem/xlc.exe"
+      - "C:/Windows/System32/wbem/xlc"
+      - "C:/Windows/System32/wbem/icx.com"
+      - "C:/Windows/System32/wbem/icx.exe"
+      - "C:/Windows/System32/wbem/icx"
+      - "C:/Windows/System32/wbem/clang.com"
+      - "C:/Windows/System32/wbem/clang.exe"
+      - "C:/Windows/System32/wbem/clang"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/cc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/cc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/cc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/cl.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/cl.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/cl"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/bcc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/bcc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/bcc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/xlc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/xlc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/xlc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/icx.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/icx.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/icx"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/clang.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/clang.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/clang"
+      - "C:/Windows/System32/OpenSSH/cc.com"
+      - "C:/Windows/System32/OpenSSH/cc.exe"
+      - "C:/Windows/System32/OpenSSH/cc"
+      - "C:/Windows/System32/OpenSSH/gcc.com"
+      - "C:/Windows/System32/OpenSSH/gcc.exe"
+      - "C:/Windows/System32/OpenSSH/gcc"
+      - "C:/Windows/System32/OpenSSH/cl.com"
+      - "C:/Windows/System32/OpenSSH/cl.exe"
+      - "C:/Windows/System32/OpenSSH/cl"
+      - "C:/Windows/System32/OpenSSH/bcc.com"
+      - "C:/Windows/System32/OpenSSH/bcc.exe"
+      - "C:/Windows/System32/OpenSSH/bcc"
+      - "C:/Windows/System32/OpenSSH/xlc.com"
+      - "C:/Windows/System32/OpenSSH/xlc.exe"
+      - "C:/Windows/System32/OpenSSH/xlc"
+      - "C:/Windows/System32/OpenSSH/icx.com"
+      - "C:/Windows/System32/OpenSSH/icx.exe"
+      - "C:/Windows/System32/OpenSSH/icx"
+      - "C:/Windows/System32/OpenSSH/clang.com"
+      - "C:/Windows/System32/OpenSSH/clang.exe"
+      - "C:/Windows/System32/OpenSSH/clang"
+      - "C:/ProgramData/chocolatey/bin/cc.com"
+      - "C:/ProgramData/chocolatey/bin/cc.exe"
+      - "C:/ProgramData/chocolatey/bin/cc"
+      - "C:/ProgramData/chocolatey/bin/gcc.com"
+      - "C:/ProgramData/chocolatey/bin/gcc.exe"
+      - "C:/ProgramData/chocolatey/bin/gcc"
+      - "C:/ProgramData/chocolatey/bin/cl.com"
+      - "C:/ProgramData/chocolatey/bin/cl.exe"
+      - "C:/ProgramData/chocolatey/bin/cl"
+      - "C:/ProgramData/chocolatey/bin/bcc.com"
+      - "C:/ProgramData/chocolatey/bin/bcc.exe"
+      - "C:/ProgramData/chocolatey/bin/bcc"
+      - "C:/ProgramData/chocolatey/bin/xlc.com"
+      - "C:/ProgramData/chocolatey/bin/xlc.exe"
+      - "C:/ProgramData/chocolatey/bin/xlc"
+      - "C:/ProgramData/chocolatey/bin/icx.com"
+      - "C:/ProgramData/chocolatey/bin/icx.exe"
+      - "C:/ProgramData/chocolatey/bin/icx"
+      - "C:/ProgramData/chocolatey/bin/clang.com"
+      - "C:/ProgramData/chocolatey/bin/clang.exe"
+      - "C:/ProgramData/chocolatey/bin/clang"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/cc.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/cc.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/cc"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/cl.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/cl.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/cl"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/bcc.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/bcc.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/bcc"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/xlc.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/xlc.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/xlc"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/icx.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/icx.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/icx"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/clang.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/clang.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/clang"
+      - "C:/Program Files (x86)/ZeroTier/One/cc.com"
+      - "C:/Program Files (x86)/ZeroTier/One/cc.exe"
+      - "C:/Program Files (x86)/ZeroTier/One/cc"
+      - "C:/Program Files (x86)/ZeroTier/One/gcc.com"
+      - "C:/Program Files (x86)/ZeroTier/One/gcc.exe"
+      - "C:/Program Files (x86)/ZeroTier/One/gcc"
+      - "C:/Program Files (x86)/ZeroTier/One/cl.com"
+      - "C:/Program Files (x86)/ZeroTier/One/cl.exe"
+      - "C:/Program Files (x86)/ZeroTier/One/cl"
+      - "C:/Program Files (x86)/ZeroTier/One/bcc.com"
+      - "C:/Program Files (x86)/ZeroTier/One/bcc.exe"
+      - "C:/Program Files (x86)/ZeroTier/One/bcc"
+      - "C:/Program Files (x86)/ZeroTier/One/xlc.com"
+      - "C:/Program Files (x86)/ZeroTier/One/xlc.exe"
+      - "C:/Program Files (x86)/ZeroTier/One/xlc"
+      - "C:/Program Files (x86)/ZeroTier/One/icx.com"
+      - "C:/Program Files (x86)/ZeroTier/One/icx.exe"
+      - "C:/Program Files (x86)/ZeroTier/One/icx"
+      - "C:/Program Files (x86)/ZeroTier/One/clang.com"
+      - "C:/Program Files (x86)/ZeroTier/One/clang.exe"
+      - "C:/Program Files (x86)/ZeroTier/One/clang"
+      - "C:/Program Files/Git/cmd/cc.com"
+      - "C:/Program Files/Git/cmd/cc.exe"
+      - "C:/Program Files/Git/cmd/cc"
+      - "C:/Program Files/Git/cmd/gcc.com"
+      - "C:/Program Files/Git/cmd/gcc.exe"
+      - "C:/Program Files/Git/cmd/gcc"
+      - "C:/Program Files/Git/cmd/cl.com"
+      - "C:/Program Files/Git/cmd/cl.exe"
+      - "C:/Program Files/Git/cmd/cl"
+      - "C:/Program Files/Git/cmd/bcc.com"
+      - "C:/Program Files/Git/cmd/bcc.exe"
+      - "C:/Program Files/Git/cmd/bcc"
+      - "C:/Program Files/Git/cmd/xlc.com"
+      - "C:/Program Files/Git/cmd/xlc.exe"
+      - "C:/Program Files/Git/cmd/xlc"
+      - "C:/Program Files/Git/cmd/icx.com"
+      - "C:/Program Files/Git/cmd/icx.exe"
+      - "C:/Program Files/Git/cmd/icx"
+      - "C:/Program Files/Git/cmd/clang.com"
+      - "C:/Program Files/Git/cmd/clang.exe"
+      - "C:/Program Files/Git/cmd/clang"
+      - "C:/Program Files/Docker/Docker/resources/bin/cc.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/cc.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/cc"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc"
+      - "C:/Program Files/Docker/Docker/resources/bin/cl.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/cl.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/cl"
+      - "C:/Program Files/Docker/Docker/resources/bin/bcc.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/bcc.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/bcc"
+      - "C:/Program Files/Docker/Docker/resources/bin/xlc.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/xlc.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/xlc"
+      - "C:/Program Files/Docker/Docker/resources/bin/icx.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/icx.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/icx"
+      - "C:/Program Files/Docker/Docker/resources/bin/clang.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/clang.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/clang"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/cc.com"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/cc.exe"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/cc"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/gcc.com"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/gcc.exe"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/gcc"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/cl.com"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/cl.exe"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/cl"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/bcc.com"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/bcc.exe"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/bcc"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/xlc.com"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/xlc.exe"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/xlc"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/icx.com"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/icx.exe"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/icx"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/clang.com"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/clang.exe"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/clang"
+      - "C:/TDM-GCC-64/bin/cc.com"
+      - "C:/TDM-GCC-64/bin/cc.exe"
+      - "C:/TDM-GCC-64/bin/cc"
+      - "C:/TDM-GCC-64/bin/gcc.com"
+    found: "C:/TDM-GCC-64/bin/gcc.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files (x86)\\ZeroTier\\One\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Cloudflare\\Cloudflare WARP\\"
+        - "C:\\TDM-GCC-64\\bin"
+        - "C:\\Users\\Kurosuba\\Assembler\\nasm-3.01-win64\\nasm-3.01"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Google\\Cloud SDK\\google-cloud-sdk\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files (x86)\\ZeroTier\\One\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Cloudflare\\Cloudflare WARP\\"
+        - "C:\\TDM-GCC-64\\bin"
+        - "C:\\Users\\Kurosuba\\Assembler\\nasm-3.01-win64\\nasm-3.01"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Google\\Cloud SDK\\google-cloud-sdk\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/TDM-GCC-64/bin/gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is GNU, found in:
+        C:/Users/Kurosuba/Kuros/libraries/glfw-3.4/build/CMakeFiles/4.1.2/CompilerIdC/a.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ar"
+    candidate_directories:
+      - "C:/TDM-GCC-64/bin/"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files (x86)/ZeroTier/One/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/"
+      - "C:/Users/Kurosuba/Assembler/nasm-3.01-win64/nasm-3.01/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Kurosuba/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/Kurosuba/AppData/Local/Google/Cloud SDK/google-cloud-sdk/bin/"
+    searched_directories:
+      - "C:/TDM-GCC-64/bin/ar.com"
+    found: "C:/TDM-GCC-64/bin/ar.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files (x86)\\ZeroTier\\One\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Cloudflare\\Cloudflare WARP\\"
+        - "C:\\TDM-GCC-64\\bin"
+        - "C:\\Users\\Kurosuba\\Assembler\\nasm-3.01-win64\\nasm-3.01"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Google\\Cloud SDK\\google-cloud-sdk\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ranlib"
+    candidate_directories:
+      - "C:/TDM-GCC-64/bin/"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files (x86)/ZeroTier/One/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/"
+      - "C:/Users/Kurosuba/Assembler/nasm-3.01-win64/nasm-3.01/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Kurosuba/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/Kurosuba/AppData/Local/Google/Cloud SDK/google-cloud-sdk/bin/"
+    searched_directories:
+      - "C:/TDM-GCC-64/bin/ranlib.com"
+    found: "C:/TDM-GCC-64/bin/ranlib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files (x86)\\ZeroTier\\One\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Cloudflare\\Cloudflare WARP\\"
+        - "C:\\TDM-GCC-64\\bin"
+        - "C:\\Users\\Kurosuba\\Assembler\\nasm-3.01-win64\\nasm-3.01"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Google\\Cloud SDK\\google-cloud-sdk\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "strip"
+    candidate_directories:
+      - "C:/TDM-GCC-64/bin/"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files (x86)/ZeroTier/One/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/"
+      - "C:/Users/Kurosuba/Assembler/nasm-3.01-win64/nasm-3.01/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Kurosuba/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/Kurosuba/AppData/Local/Google/Cloud SDK/google-cloud-sdk/bin/"
+    searched_directories:
+      - "C:/TDM-GCC-64/bin/strip.com"
+    found: "C:/TDM-GCC-64/bin/strip.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files (x86)\\ZeroTier\\One\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Cloudflare\\Cloudflare WARP\\"
+        - "C:\\TDM-GCC-64\\bin"
+        - "C:\\Users\\Kurosuba\\Assembler\\nasm-3.01-win64\\nasm-3.01"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Google\\Cloud SDK\\google-cloud-sdk\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld"
+    candidate_directories:
+      - "C:/TDM-GCC-64/bin/"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files (x86)/ZeroTier/One/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/"
+      - "C:/Users/Kurosuba/Assembler/nasm-3.01-win64/nasm-3.01/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Kurosuba/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/Kurosuba/AppData/Local/Google/Cloud SDK/google-cloud-sdk/bin/"
+    searched_directories:
+      - "C:/TDM-GCC-64/bin/ld.com"
+    found: "C:/TDM-GCC-64/bin/ld.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files (x86)\\ZeroTier\\One\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Cloudflare\\Cloudflare WARP\\"
+        - "C:\\TDM-GCC-64\\bin"
+        - "C:\\Users\\Kurosuba\\Assembler\\nasm-3.01-win64\\nasm-3.01"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Google\\Cloud SDK\\google-cloud-sdk\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nm"
+    candidate_directories:
+      - "C:/TDM-GCC-64/bin/"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files (x86)/ZeroTier/One/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/"
+      - "C:/Users/Kurosuba/Assembler/nasm-3.01-win64/nasm-3.01/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Kurosuba/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/Kurosuba/AppData/Local/Google/Cloud SDK/google-cloud-sdk/bin/"
+    searched_directories:
+      - "C:/TDM-GCC-64/bin/nm.com"
+    found: "C:/TDM-GCC-64/bin/nm.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files (x86)\\ZeroTier\\One\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Cloudflare\\Cloudflare WARP\\"
+        - "C:\\TDM-GCC-64\\bin"
+        - "C:\\Users\\Kurosuba\\Assembler\\nasm-3.01-win64\\nasm-3.01"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Google\\Cloud SDK\\google-cloud-sdk\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objdump"
+    candidate_directories:
+      - "C:/TDM-GCC-64/bin/"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files (x86)/ZeroTier/One/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/"
+      - "C:/Users/Kurosuba/Assembler/nasm-3.01-win64/nasm-3.01/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Kurosuba/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/Kurosuba/AppData/Local/Google/Cloud SDK/google-cloud-sdk/bin/"
+    searched_directories:
+      - "C:/TDM-GCC-64/bin/objdump.com"
+    found: "C:/TDM-GCC-64/bin/objdump.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files (x86)\\ZeroTier\\One\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Cloudflare\\Cloudflare WARP\\"
+        - "C:\\TDM-GCC-64\\bin"
+        - "C:\\Users\\Kurosuba\\Assembler\\nasm-3.01-win64\\nasm-3.01"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Google\\Cloud SDK\\google-cloud-sdk\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objcopy"
+    candidate_directories:
+      - "C:/TDM-GCC-64/bin/"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files (x86)/ZeroTier/One/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/"
+      - "C:/Users/Kurosuba/Assembler/nasm-3.01-win64/nasm-3.01/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Kurosuba/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/Kurosuba/AppData/Local/Google/Cloud SDK/google-cloud-sdk/bin/"
+    searched_directories:
+      - "C:/TDM-GCC-64/bin/objcopy.com"
+    found: "C:/TDM-GCC-64/bin/objcopy.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files (x86)\\ZeroTier\\One\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Cloudflare\\Cloudflare WARP\\"
+        - "C:\\TDM-GCC-64\\bin"
+        - "C:\\Users\\Kurosuba\\Assembler\\nasm-3.01-win64\\nasm-3.01"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Google\\Cloud SDK\\google-cloud-sdk\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "readelf"
+    candidate_directories:
+      - "C:/TDM-GCC-64/bin/"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files (x86)/ZeroTier/One/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/"
+      - "C:/Users/Kurosuba/Assembler/nasm-3.01-win64/nasm-3.01/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Kurosuba/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/Kurosuba/AppData/Local/Google/Cloud SDK/google-cloud-sdk/bin/"
+    searched_directories:
+      - "C:/TDM-GCC-64/bin/readelf.com"
+    found: "C:/TDM-GCC-64/bin/readelf.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files (x86)\\ZeroTier\\One\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Cloudflare\\Cloudflare WARP\\"
+        - "C:\\TDM-GCC-64\\bin"
+        - "C:\\Users\\Kurosuba\\Assembler\\nasm-3.01-win64\\nasm-3.01"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Google\\Cloud SDK\\google-cloud-sdk\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "dlltool"
+    candidate_directories:
+      - "C:/TDM-GCC-64/bin/"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files (x86)/ZeroTier/One/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/"
+      - "C:/Users/Kurosuba/Assembler/nasm-3.01-win64/nasm-3.01/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Kurosuba/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/Kurosuba/AppData/Local/Google/Cloud SDK/google-cloud-sdk/bin/"
+    searched_directories:
+      - "C:/TDM-GCC-64/bin/dlltool.com"
+    found: "C:/TDM-GCC-64/bin/dlltool.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files (x86)\\ZeroTier\\One\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Cloudflare\\Cloudflare WARP\\"
+        - "C:\\TDM-GCC-64\\bin"
+        - "C:\\Users\\Kurosuba\\Assembler\\nasm-3.01-win64\\nasm-3.01"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Google\\Cloud SDK\\google-cloud-sdk\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "addr2line"
+    candidate_directories:
+      - "C:/TDM-GCC-64/bin/"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files (x86)/ZeroTier/One/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/"
+      - "C:/Users/Kurosuba/Assembler/nasm-3.01-win64/nasm-3.01/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Kurosuba/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/Kurosuba/AppData/Local/Google/Cloud SDK/google-cloud-sdk/bin/"
+    searched_directories:
+      - "C:/TDM-GCC-64/bin/addr2line.com"
+    found: "C:/TDM-GCC-64/bin/addr2line.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files (x86)\\ZeroTier\\One\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Cloudflare\\Cloudflare WARP\\"
+        - "C:\\TDM-GCC-64\\bin"
+        - "C:\\Users\\Kurosuba\\Assembler\\nasm-3.01-win64\\nasm-3.01"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Google\\Cloud SDK\\google-cloud-sdk\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "C:/TDM-GCC-64/bin/"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files (x86)/ZeroTier/One/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/"
+      - "C:/Users/Kurosuba/Assembler/nasm-3.01-win64/nasm-3.01/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Kurosuba/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/Kurosuba/AppData/Local/Google/Cloud SDK/google-cloud-sdk/bin/"
+    searched_directories:
+      - "C:/TDM-GCC-64/bin/tapi.com"
+      - "C:/TDM-GCC-64/bin/tapi.exe"
+      - "C:/TDM-GCC-64/bin/tapi"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/tapi.com"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/tapi.exe"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/tapi"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/tapi.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/tapi.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/tapi"
+      - "C:/Windows/System32/tapi.com"
+      - "C:/Windows/System32/tapi.exe"
+      - "C:/Windows/System32/tapi"
+      - "C:/Windows/tapi.com"
+      - "C:/Windows/tapi.exe"
+      - "C:/Windows/tapi"
+      - "C:/Windows/System32/wbem/tapi.com"
+      - "C:/Windows/System32/wbem/tapi.exe"
+      - "C:/Windows/System32/wbem/tapi"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi"
+      - "C:/Windows/System32/OpenSSH/tapi.com"
+      - "C:/Windows/System32/OpenSSH/tapi.exe"
+      - "C:/Windows/System32/OpenSSH/tapi"
+      - "C:/ProgramData/chocolatey/bin/tapi.com"
+      - "C:/ProgramData/chocolatey/bin/tapi.exe"
+      - "C:/ProgramData/chocolatey/bin/tapi"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/tapi.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/tapi.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/tapi"
+      - "C:/Program Files (x86)/ZeroTier/One/tapi.com"
+      - "C:/Program Files (x86)/ZeroTier/One/tapi.exe"
+      - "C:/Program Files (x86)/ZeroTier/One/tapi"
+      - "C:/Program Files/Git/cmd/tapi.com"
+      - "C:/Program Files/Git/cmd/tapi.exe"
+      - "C:/Program Files/Git/cmd/tapi"
+      - "C:/Program Files/Docker/Docker/resources/bin/tapi.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/tapi.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/tapi"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/tapi.com"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/tapi.exe"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/tapi"
+      - "C:/Users/Kurosuba/Assembler/nasm-3.01-win64/nasm-3.01/tapi.com"
+      - "C:/Users/Kurosuba/Assembler/nasm-3.01-win64/nasm-3.01/tapi.exe"
+      - "C:/Users/Kurosuba/Assembler/nasm-3.01-win64/nasm-3.01/tapi"
+      - "C:/Program Files/CMake/bin/tapi.com"
+      - "C:/Program Files/CMake/bin/tapi.exe"
+      - "C:/Program Files/CMake/bin/tapi"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Launcher/tapi.com"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Launcher/tapi.exe"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Launcher/tapi"
+      - "C:/Users/Kurosuba/AppData/Local/Microsoft/WindowsApps/tapi.com"
+      - "C:/Users/Kurosuba/AppData/Local/Microsoft/WindowsApps/tapi.exe"
+      - "C:/Users/Kurosuba/AppData/Local/Microsoft/WindowsApps/tapi"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Microsoft VS Code/bin/tapi.com"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Microsoft VS Code/bin/tapi.exe"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Microsoft VS Code/bin/tapi"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Python311/tapi.com"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Python311/tapi.exe"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Python311/tapi"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Python311/Scripts/tapi.com"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Python311/Scripts/tapi.exe"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Python311/Scripts/tapi"
+      - "C:/Users/Kurosuba/AppData/Local/Google/Cloud SDK/google-cloud-sdk/bin/tapi.com"
+      - "C:/Users/Kurosuba/AppData/Local/Google/Cloud SDK/google-cloud-sdk/bin/tapi.exe"
+      - "C:/Users/Kurosuba/AppData/Local/Google/Cloud SDK/google-cloud-sdk/bin/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files (x86)\\ZeroTier\\One\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Cloudflare\\Cloudflare WARP\\"
+        - "C:\\TDM-GCC-64\\bin"
+        - "C:\\Users\\Kurosuba\\Assembler\\nasm-3.01-win64\\nasm-3.01"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Google\\Cloud SDK\\google-cloud-sdk\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ar-10.3"
+      - "gcc-ar-10"
+      - "gcc-ar10"
+      - "gcc-ar"
+    candidate_directories:
+      - "C:/TDM-GCC-64/bin/"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files (x86)/ZeroTier/One/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/"
+      - "C:/Users/Kurosuba/Assembler/nasm-3.01-win64/nasm-3.01/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Kurosuba/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/Kurosuba/AppData/Local/Google/Cloud SDK/google-cloud-sdk/bin/"
+    searched_directories:
+      - "C:/TDM-GCC-64/bin/gcc-ar-10.3.com"
+      - "C:/TDM-GCC-64/bin/gcc-ar-10.3.exe"
+      - "C:/TDM-GCC-64/bin/gcc-ar-10.3"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/gcc-ar-10.3.com"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/gcc-ar-10.3.exe"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/gcc-ar-10.3"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc-ar-10.3.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc-ar-10.3.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc-ar-10.3"
+      - "C:/Windows/System32/gcc-ar-10.3.com"
+      - "C:/Windows/System32/gcc-ar-10.3.exe"
+      - "C:/Windows/System32/gcc-ar-10.3"
+      - "C:/Windows/gcc-ar-10.3.com"
+      - "C:/Windows/gcc-ar-10.3.exe"
+      - "C:/Windows/gcc-ar-10.3"
+      - "C:/Windows/System32/wbem/gcc-ar-10.3.com"
+      - "C:/Windows/System32/wbem/gcc-ar-10.3.exe"
+      - "C:/Windows/System32/wbem/gcc-ar-10.3"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-10.3.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-10.3.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-10.3"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-10.3.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-10.3.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-10.3"
+      - "C:/ProgramData/chocolatey/bin/gcc-ar-10.3.com"
+      - "C:/ProgramData/chocolatey/bin/gcc-ar-10.3.exe"
+      - "C:/ProgramData/chocolatey/bin/gcc-ar-10.3"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-10.3.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-10.3.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-10.3"
+      - "C:/Program Files (x86)/ZeroTier/One/gcc-ar-10.3.com"
+      - "C:/Program Files (x86)/ZeroTier/One/gcc-ar-10.3.exe"
+      - "C:/Program Files (x86)/ZeroTier/One/gcc-ar-10.3"
+      - "C:/Program Files/Git/cmd/gcc-ar-10.3.com"
+      - "C:/Program Files/Git/cmd/gcc-ar-10.3.exe"
+      - "C:/Program Files/Git/cmd/gcc-ar-10.3"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ar-10.3.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ar-10.3.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ar-10.3"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/gcc-ar-10.3.com"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/gcc-ar-10.3.exe"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/gcc-ar-10.3"
+      - "C:/Users/Kurosuba/Assembler/nasm-3.01-win64/nasm-3.01/gcc-ar-10.3.com"
+      - "C:/Users/Kurosuba/Assembler/nasm-3.01-win64/nasm-3.01/gcc-ar-10.3.exe"
+      - "C:/Users/Kurosuba/Assembler/nasm-3.01-win64/nasm-3.01/gcc-ar-10.3"
+      - "C:/Program Files/CMake/bin/gcc-ar-10.3.com"
+      - "C:/Program Files/CMake/bin/gcc-ar-10.3.exe"
+      - "C:/Program Files/CMake/bin/gcc-ar-10.3"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Launcher/gcc-ar-10.3.com"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Launcher/gcc-ar-10.3.exe"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Launcher/gcc-ar-10.3"
+      - "C:/Users/Kurosuba/AppData/Local/Microsoft/WindowsApps/gcc-ar-10.3.com"
+      - "C:/Users/Kurosuba/AppData/Local/Microsoft/WindowsApps/gcc-ar-10.3.exe"
+      - "C:/Users/Kurosuba/AppData/Local/Microsoft/WindowsApps/gcc-ar-10.3"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-10.3.com"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-10.3.exe"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-10.3"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Python311/gcc-ar-10.3.com"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Python311/gcc-ar-10.3.exe"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Python311/gcc-ar-10.3"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Python311/Scripts/gcc-ar-10.3.com"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Python311/Scripts/gcc-ar-10.3.exe"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Python311/Scripts/gcc-ar-10.3"
+      - "C:/Users/Kurosuba/AppData/Local/Google/Cloud SDK/google-cloud-sdk/bin/gcc-ar-10.3.com"
+      - "C:/Users/Kurosuba/AppData/Local/Google/Cloud SDK/google-cloud-sdk/bin/gcc-ar-10.3.exe"
+      - "C:/Users/Kurosuba/AppData/Local/Google/Cloud SDK/google-cloud-sdk/bin/gcc-ar-10.3"
+      - "C:/TDM-GCC-64/bin/gcc-ar-10.com"
+      - "C:/TDM-GCC-64/bin/gcc-ar-10.exe"
+      - "C:/TDM-GCC-64/bin/gcc-ar-10"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/gcc-ar-10.com"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/gcc-ar-10.exe"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/gcc-ar-10"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc-ar-10.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc-ar-10.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc-ar-10"
+      - "C:/Windows/System32/gcc-ar-10.com"
+      - "C:/Windows/System32/gcc-ar-10.exe"
+      - "C:/Windows/System32/gcc-ar-10"
+      - "C:/Windows/gcc-ar-10.com"
+      - "C:/Windows/gcc-ar-10.exe"
+      - "C:/Windows/gcc-ar-10"
+      - "C:/Windows/System32/wbem/gcc-ar-10.com"
+      - "C:/Windows/System32/wbem/gcc-ar-10.exe"
+      - "C:/Windows/System32/wbem/gcc-ar-10"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-10.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-10.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-10"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-10.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-10.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-10"
+      - "C:/ProgramData/chocolatey/bin/gcc-ar-10.com"
+      - "C:/ProgramData/chocolatey/bin/gcc-ar-10.exe"
+      - "C:/ProgramData/chocolatey/bin/gcc-ar-10"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-10.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-10.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar-10"
+      - "C:/Program Files (x86)/ZeroTier/One/gcc-ar-10.com"
+      - "C:/Program Files (x86)/ZeroTier/One/gcc-ar-10.exe"
+      - "C:/Program Files (x86)/ZeroTier/One/gcc-ar-10"
+      - "C:/Program Files/Git/cmd/gcc-ar-10.com"
+      - "C:/Program Files/Git/cmd/gcc-ar-10.exe"
+      - "C:/Program Files/Git/cmd/gcc-ar-10"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ar-10.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ar-10.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ar-10"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/gcc-ar-10.com"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/gcc-ar-10.exe"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/gcc-ar-10"
+      - "C:/Users/Kurosuba/Assembler/nasm-3.01-win64/nasm-3.01/gcc-ar-10.com"
+      - "C:/Users/Kurosuba/Assembler/nasm-3.01-win64/nasm-3.01/gcc-ar-10.exe"
+      - "C:/Users/Kurosuba/Assembler/nasm-3.01-win64/nasm-3.01/gcc-ar-10"
+      - "C:/Program Files/CMake/bin/gcc-ar-10.com"
+      - "C:/Program Files/CMake/bin/gcc-ar-10.exe"
+      - "C:/Program Files/CMake/bin/gcc-ar-10"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Launcher/gcc-ar-10.com"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Launcher/gcc-ar-10.exe"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Launcher/gcc-ar-10"
+      - "C:/Users/Kurosuba/AppData/Local/Microsoft/WindowsApps/gcc-ar-10.com"
+      - "C:/Users/Kurosuba/AppData/Local/Microsoft/WindowsApps/gcc-ar-10.exe"
+      - "C:/Users/Kurosuba/AppData/Local/Microsoft/WindowsApps/gcc-ar-10"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-10.com"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-10.exe"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-10"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Python311/gcc-ar-10.com"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Python311/gcc-ar-10.exe"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Python311/gcc-ar-10"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Python311/Scripts/gcc-ar-10.com"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Python311/Scripts/gcc-ar-10.exe"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Python311/Scripts/gcc-ar-10"
+      - "C:/Users/Kurosuba/AppData/Local/Google/Cloud SDK/google-cloud-sdk/bin/gcc-ar-10.com"
+      - "C:/Users/Kurosuba/AppData/Local/Google/Cloud SDK/google-cloud-sdk/bin/gcc-ar-10.exe"
+      - "C:/Users/Kurosuba/AppData/Local/Google/Cloud SDK/google-cloud-sdk/bin/gcc-ar-10"
+      - "C:/TDM-GCC-64/bin/gcc-ar10.com"
+      - "C:/TDM-GCC-64/bin/gcc-ar10.exe"
+      - "C:/TDM-GCC-64/bin/gcc-ar10"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/gcc-ar10.com"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/gcc-ar10.exe"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/gcc-ar10"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc-ar10.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc-ar10.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc-ar10"
+      - "C:/Windows/System32/gcc-ar10.com"
+      - "C:/Windows/System32/gcc-ar10.exe"
+      - "C:/Windows/System32/gcc-ar10"
+      - "C:/Windows/gcc-ar10.com"
+      - "C:/Windows/gcc-ar10.exe"
+      - "C:/Windows/gcc-ar10"
+      - "C:/Windows/System32/wbem/gcc-ar10.com"
+      - "C:/Windows/System32/wbem/gcc-ar10.exe"
+      - "C:/Windows/System32/wbem/gcc-ar10"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar10.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar10.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar10"
+      - "C:/Windows/System32/OpenSSH/gcc-ar10.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ar10.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ar10"
+      - "C:/ProgramData/chocolatey/bin/gcc-ar10.com"
+      - "C:/ProgramData/chocolatey/bin/gcc-ar10.exe"
+      - "C:/ProgramData/chocolatey/bin/gcc-ar10"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar10.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar10.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ar10"
+      - "C:/Program Files (x86)/ZeroTier/One/gcc-ar10.com"
+      - "C:/Program Files (x86)/ZeroTier/One/gcc-ar10.exe"
+      - "C:/Program Files (x86)/ZeroTier/One/gcc-ar10"
+      - "C:/Program Files/Git/cmd/gcc-ar10.com"
+      - "C:/Program Files/Git/cmd/gcc-ar10.exe"
+      - "C:/Program Files/Git/cmd/gcc-ar10"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ar10.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ar10.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ar10"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/gcc-ar10.com"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/gcc-ar10.exe"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/gcc-ar10"
+      - "C:/Users/Kurosuba/Assembler/nasm-3.01-win64/nasm-3.01/gcc-ar10.com"
+      - "C:/Users/Kurosuba/Assembler/nasm-3.01-win64/nasm-3.01/gcc-ar10.exe"
+      - "C:/Users/Kurosuba/Assembler/nasm-3.01-win64/nasm-3.01/gcc-ar10"
+      - "C:/Program Files/CMake/bin/gcc-ar10.com"
+      - "C:/Program Files/CMake/bin/gcc-ar10.exe"
+      - "C:/Program Files/CMake/bin/gcc-ar10"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Launcher/gcc-ar10.com"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Launcher/gcc-ar10.exe"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Launcher/gcc-ar10"
+      - "C:/Users/Kurosuba/AppData/Local/Microsoft/WindowsApps/gcc-ar10.com"
+      - "C:/Users/Kurosuba/AppData/Local/Microsoft/WindowsApps/gcc-ar10.exe"
+      - "C:/Users/Kurosuba/AppData/Local/Microsoft/WindowsApps/gcc-ar10"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar10.com"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar10.exe"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar10"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Python311/gcc-ar10.com"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Python311/gcc-ar10.exe"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Python311/gcc-ar10"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Python311/Scripts/gcc-ar10.com"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Python311/Scripts/gcc-ar10.exe"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Python311/Scripts/gcc-ar10"
+      - "C:/Users/Kurosuba/AppData/Local/Google/Cloud SDK/google-cloud-sdk/bin/gcc-ar10.com"
+      - "C:/Users/Kurosuba/AppData/Local/Google/Cloud SDK/google-cloud-sdk/bin/gcc-ar10.exe"
+      - "C:/Users/Kurosuba/AppData/Local/Google/Cloud SDK/google-cloud-sdk/bin/gcc-ar10"
+      - "C:/TDM-GCC-64/bin/gcc-ar.com"
+    found: "C:/TDM-GCC-64/bin/gcc-ar.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files (x86)\\ZeroTier\\One\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Cloudflare\\Cloudflare WARP\\"
+        - "C:\\TDM-GCC-64\\bin"
+        - "C:\\Users\\Kurosuba\\Assembler\\nasm-3.01-win64\\nasm-3.01"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Google\\Cloud SDK\\google-cloud-sdk\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ranlib-10.3"
+      - "gcc-ranlib-10"
+      - "gcc-ranlib10"
+      - "gcc-ranlib"
+    candidate_directories:
+      - "C:/TDM-GCC-64/bin/"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files (x86)/ZeroTier/One/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/"
+      - "C:/Users/Kurosuba/Assembler/nasm-3.01-win64/nasm-3.01/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Kurosuba/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/Kurosuba/AppData/Local/Google/Cloud SDK/google-cloud-sdk/bin/"
+    searched_directories:
+      - "C:/TDM-GCC-64/bin/gcc-ranlib-10.3.com"
+      - "C:/TDM-GCC-64/bin/gcc-ranlib-10.3.exe"
+      - "C:/TDM-GCC-64/bin/gcc-ranlib-10.3"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/gcc-ranlib-10.3.com"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/gcc-ranlib-10.3.exe"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/gcc-ranlib-10.3"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc-ranlib-10.3.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc-ranlib-10.3.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc-ranlib-10.3"
+      - "C:/Windows/System32/gcc-ranlib-10.3.com"
+      - "C:/Windows/System32/gcc-ranlib-10.3.exe"
+      - "C:/Windows/System32/gcc-ranlib-10.3"
+      - "C:/Windows/gcc-ranlib-10.3.com"
+      - "C:/Windows/gcc-ranlib-10.3.exe"
+      - "C:/Windows/gcc-ranlib-10.3"
+      - "C:/Windows/System32/wbem/gcc-ranlib-10.3.com"
+      - "C:/Windows/System32/wbem/gcc-ranlib-10.3.exe"
+      - "C:/Windows/System32/wbem/gcc-ranlib-10.3"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-10.3.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-10.3.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-10.3"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-10.3.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-10.3.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-10.3"
+      - "C:/ProgramData/chocolatey/bin/gcc-ranlib-10.3.com"
+      - "C:/ProgramData/chocolatey/bin/gcc-ranlib-10.3.exe"
+      - "C:/ProgramData/chocolatey/bin/gcc-ranlib-10.3"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-10.3.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-10.3.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-10.3"
+      - "C:/Program Files (x86)/ZeroTier/One/gcc-ranlib-10.3.com"
+      - "C:/Program Files (x86)/ZeroTier/One/gcc-ranlib-10.3.exe"
+      - "C:/Program Files (x86)/ZeroTier/One/gcc-ranlib-10.3"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-10.3.com"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-10.3.exe"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-10.3"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ranlib-10.3.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ranlib-10.3.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ranlib-10.3"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/gcc-ranlib-10.3.com"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/gcc-ranlib-10.3.exe"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/gcc-ranlib-10.3"
+      - "C:/Users/Kurosuba/Assembler/nasm-3.01-win64/nasm-3.01/gcc-ranlib-10.3.com"
+      - "C:/Users/Kurosuba/Assembler/nasm-3.01-win64/nasm-3.01/gcc-ranlib-10.3.exe"
+      - "C:/Users/Kurosuba/Assembler/nasm-3.01-win64/nasm-3.01/gcc-ranlib-10.3"
+      - "C:/Program Files/CMake/bin/gcc-ranlib-10.3.com"
+      - "C:/Program Files/CMake/bin/gcc-ranlib-10.3.exe"
+      - "C:/Program Files/CMake/bin/gcc-ranlib-10.3"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Launcher/gcc-ranlib-10.3.com"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Launcher/gcc-ranlib-10.3.exe"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Launcher/gcc-ranlib-10.3"
+      - "C:/Users/Kurosuba/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-10.3.com"
+      - "C:/Users/Kurosuba/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-10.3.exe"
+      - "C:/Users/Kurosuba/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-10.3"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-10.3.com"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-10.3.exe"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-10.3"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Python311/gcc-ranlib-10.3.com"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Python311/gcc-ranlib-10.3.exe"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Python311/gcc-ranlib-10.3"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Python311/Scripts/gcc-ranlib-10.3.com"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Python311/Scripts/gcc-ranlib-10.3.exe"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Python311/Scripts/gcc-ranlib-10.3"
+      - "C:/Users/Kurosuba/AppData/Local/Google/Cloud SDK/google-cloud-sdk/bin/gcc-ranlib-10.3.com"
+      - "C:/Users/Kurosuba/AppData/Local/Google/Cloud SDK/google-cloud-sdk/bin/gcc-ranlib-10.3.exe"
+      - "C:/Users/Kurosuba/AppData/Local/Google/Cloud SDK/google-cloud-sdk/bin/gcc-ranlib-10.3"
+      - "C:/TDM-GCC-64/bin/gcc-ranlib-10.com"
+      - "C:/TDM-GCC-64/bin/gcc-ranlib-10.exe"
+      - "C:/TDM-GCC-64/bin/gcc-ranlib-10"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/gcc-ranlib-10.com"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/gcc-ranlib-10.exe"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/gcc-ranlib-10"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc-ranlib-10.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc-ranlib-10.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc-ranlib-10"
+      - "C:/Windows/System32/gcc-ranlib-10.com"
+      - "C:/Windows/System32/gcc-ranlib-10.exe"
+      - "C:/Windows/System32/gcc-ranlib-10"
+      - "C:/Windows/gcc-ranlib-10.com"
+      - "C:/Windows/gcc-ranlib-10.exe"
+      - "C:/Windows/gcc-ranlib-10"
+      - "C:/Windows/System32/wbem/gcc-ranlib-10.com"
+      - "C:/Windows/System32/wbem/gcc-ranlib-10.exe"
+      - "C:/Windows/System32/wbem/gcc-ranlib-10"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-10.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-10.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-10"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-10.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-10.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-10"
+      - "C:/ProgramData/chocolatey/bin/gcc-ranlib-10.com"
+      - "C:/ProgramData/chocolatey/bin/gcc-ranlib-10.exe"
+      - "C:/ProgramData/chocolatey/bin/gcc-ranlib-10"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-10.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-10.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib-10"
+      - "C:/Program Files (x86)/ZeroTier/One/gcc-ranlib-10.com"
+      - "C:/Program Files (x86)/ZeroTier/One/gcc-ranlib-10.exe"
+      - "C:/Program Files (x86)/ZeroTier/One/gcc-ranlib-10"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-10.com"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-10.exe"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-10"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ranlib-10.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ranlib-10.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ranlib-10"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/gcc-ranlib-10.com"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/gcc-ranlib-10.exe"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/gcc-ranlib-10"
+      - "C:/Users/Kurosuba/Assembler/nasm-3.01-win64/nasm-3.01/gcc-ranlib-10.com"
+      - "C:/Users/Kurosuba/Assembler/nasm-3.01-win64/nasm-3.01/gcc-ranlib-10.exe"
+      - "C:/Users/Kurosuba/Assembler/nasm-3.01-win64/nasm-3.01/gcc-ranlib-10"
+      - "C:/Program Files/CMake/bin/gcc-ranlib-10.com"
+      - "C:/Program Files/CMake/bin/gcc-ranlib-10.exe"
+      - "C:/Program Files/CMake/bin/gcc-ranlib-10"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Launcher/gcc-ranlib-10.com"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Launcher/gcc-ranlib-10.exe"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Launcher/gcc-ranlib-10"
+      - "C:/Users/Kurosuba/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-10.com"
+      - "C:/Users/Kurosuba/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-10.exe"
+      - "C:/Users/Kurosuba/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-10"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-10.com"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-10.exe"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-10"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Python311/gcc-ranlib-10.com"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Python311/gcc-ranlib-10.exe"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Python311/gcc-ranlib-10"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Python311/Scripts/gcc-ranlib-10.com"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Python311/Scripts/gcc-ranlib-10.exe"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Python311/Scripts/gcc-ranlib-10"
+      - "C:/Users/Kurosuba/AppData/Local/Google/Cloud SDK/google-cloud-sdk/bin/gcc-ranlib-10.com"
+      - "C:/Users/Kurosuba/AppData/Local/Google/Cloud SDK/google-cloud-sdk/bin/gcc-ranlib-10.exe"
+      - "C:/Users/Kurosuba/AppData/Local/Google/Cloud SDK/google-cloud-sdk/bin/gcc-ranlib-10"
+      - "C:/TDM-GCC-64/bin/gcc-ranlib10.com"
+      - "C:/TDM-GCC-64/bin/gcc-ranlib10.exe"
+      - "C:/TDM-GCC-64/bin/gcc-ranlib10"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/gcc-ranlib10.com"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/gcc-ranlib10.exe"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/gcc-ranlib10"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc-ranlib10.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc-ranlib10.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/gcc-ranlib10"
+      - "C:/Windows/System32/gcc-ranlib10.com"
+      - "C:/Windows/System32/gcc-ranlib10.exe"
+      - "C:/Windows/System32/gcc-ranlib10"
+      - "C:/Windows/gcc-ranlib10.com"
+      - "C:/Windows/gcc-ranlib10.exe"
+      - "C:/Windows/gcc-ranlib10"
+      - "C:/Windows/System32/wbem/gcc-ranlib10.com"
+      - "C:/Windows/System32/wbem/gcc-ranlib10.exe"
+      - "C:/Windows/System32/wbem/gcc-ranlib10"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib10.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib10.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib10"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib10.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib10.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib10"
+      - "C:/ProgramData/chocolatey/bin/gcc-ranlib10.com"
+      - "C:/ProgramData/chocolatey/bin/gcc-ranlib10.exe"
+      - "C:/ProgramData/chocolatey/bin/gcc-ranlib10"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib10.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib10.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcc-ranlib10"
+      - "C:/Program Files (x86)/ZeroTier/One/gcc-ranlib10.com"
+      - "C:/Program Files (x86)/ZeroTier/One/gcc-ranlib10.exe"
+      - "C:/Program Files (x86)/ZeroTier/One/gcc-ranlib10"
+      - "C:/Program Files/Git/cmd/gcc-ranlib10.com"
+      - "C:/Program Files/Git/cmd/gcc-ranlib10.exe"
+      - "C:/Program Files/Git/cmd/gcc-ranlib10"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ranlib10.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ranlib10.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ranlib10"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/gcc-ranlib10.com"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/gcc-ranlib10.exe"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/gcc-ranlib10"
+      - "C:/Users/Kurosuba/Assembler/nasm-3.01-win64/nasm-3.01/gcc-ranlib10.com"
+      - "C:/Users/Kurosuba/Assembler/nasm-3.01-win64/nasm-3.01/gcc-ranlib10.exe"
+      - "C:/Users/Kurosuba/Assembler/nasm-3.01-win64/nasm-3.01/gcc-ranlib10"
+      - "C:/Program Files/CMake/bin/gcc-ranlib10.com"
+      - "C:/Program Files/CMake/bin/gcc-ranlib10.exe"
+      - "C:/Program Files/CMake/bin/gcc-ranlib10"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Launcher/gcc-ranlib10.com"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Launcher/gcc-ranlib10.exe"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Launcher/gcc-ranlib10"
+      - "C:/Users/Kurosuba/AppData/Local/Microsoft/WindowsApps/gcc-ranlib10.com"
+      - "C:/Users/Kurosuba/AppData/Local/Microsoft/WindowsApps/gcc-ranlib10.exe"
+      - "C:/Users/Kurosuba/AppData/Local/Microsoft/WindowsApps/gcc-ranlib10"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib10.com"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib10.exe"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib10"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Python311/gcc-ranlib10.com"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Python311/gcc-ranlib10.exe"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Python311/gcc-ranlib10"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Python311/Scripts/gcc-ranlib10.com"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Python311/Scripts/gcc-ranlib10.exe"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Python311/Scripts/gcc-ranlib10"
+      - "C:/Users/Kurosuba/AppData/Local/Google/Cloud SDK/google-cloud-sdk/bin/gcc-ranlib10.com"
+      - "C:/Users/Kurosuba/AppData/Local/Google/Cloud SDK/google-cloud-sdk/bin/gcc-ranlib10.exe"
+      - "C:/Users/Kurosuba/AppData/Local/Google/Cloud SDK/google-cloud-sdk/bin/gcc-ranlib10"
+      - "C:/TDM-GCC-64/bin/gcc-ranlib.com"
+    found: "C:/TDM-GCC-64/bin/gcc-ranlib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files (x86)\\ZeroTier\\One\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Cloudflare\\Cloudflare WARP\\"
+        - "C:\\TDM-GCC-64\\bin"
+        - "C:\\Users\\Kurosuba\\Assembler\\nasm-3.01-win64\\nasm-3.01"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Google\\Cloud SDK\\google-cloud-sdk\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Windows-GNU.cmake:167 (enable_language)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Windows-GNU-C.cmake:2 (__windows_compiler_gnu)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCInformation.cmake:48 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "windres"
+      - "windres"
+    candidate_directories:
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files (x86)/ZeroTier/One/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/"
+      - "C:/TDM-GCC-64/bin/"
+      - "C:/Users/Kurosuba/Assembler/nasm-3.01-win64/nasm-3.01/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Kurosuba/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/Kurosuba/AppData/Local/Google/Cloud SDK/google-cloud-sdk/bin/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/GLFW/bin/"
+      - "C:/Program Files (x86)/GLFW/sbin/"
+      - "C:/Program Files (x86)/GLFW/"
+    searched_directories:
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/windres.com"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/windres.exe"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/windres"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/windres.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/windres.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/windres"
+      - "C:/Windows/System32/windres.com"
+      - "C:/Windows/System32/windres.exe"
+      - "C:/Windows/System32/windres"
+      - "C:/Windows/windres.com"
+      - "C:/Windows/windres.exe"
+      - "C:/Windows/windres"
+      - "C:/Windows/System32/wbem/windres.com"
+      - "C:/Windows/System32/wbem/windres.exe"
+      - "C:/Windows/System32/wbem/windres"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/windres.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/windres.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/windres"
+      - "C:/Windows/System32/OpenSSH/windres.com"
+      - "C:/Windows/System32/OpenSSH/windres.exe"
+      - "C:/Windows/System32/OpenSSH/windres"
+      - "C:/ProgramData/chocolatey/bin/windres.com"
+      - "C:/ProgramData/chocolatey/bin/windres.exe"
+      - "C:/ProgramData/chocolatey/bin/windres"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/windres.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/windres.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/windres"
+      - "C:/Program Files (x86)/ZeroTier/One/windres.com"
+      - "C:/Program Files (x86)/ZeroTier/One/windres.exe"
+      - "C:/Program Files (x86)/ZeroTier/One/windres"
+      - "C:/Program Files/Git/cmd/windres.com"
+      - "C:/Program Files/Git/cmd/windres.exe"
+      - "C:/Program Files/Git/cmd/windres"
+      - "C:/Program Files/Docker/Docker/resources/bin/windres.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/windres.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/windres"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/windres.com"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/windres.exe"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/windres"
+      - "C:/TDM-GCC-64/bin/windres.com"
+    found: "C:/TDM-GCC-64/bin/windres.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files (x86)\\ZeroTier\\One\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Cloudflare\\Cloudflare WARP\\"
+        - "C:\\TDM-GCC-64\\bin"
+        - "C:\\Users\\Kurosuba\\Assembler\\nasm-3.01-win64\\nasm-3.01"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Google\\Cloud SDK\\google-cloud-sdk\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/GLFW"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/GLFW"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/Kurosuba/Kuros/libraries/glfw-3.4/build/CMakeFiles/CMakeScratch/TryCompile-yttjsz"
+      binary: "C:/Users/Kurosuba/Kuros/libraries/glfw-3.4/build/CMakeFiles/CMakeScratch/TryCompile-yttjsz"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Kurosuba/Kuros/libraries/glfw-3.4/build/CMakeFiles/CMakeScratch/TryCompile-yttjsz'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/TDM-GCC-64/bin/mingw32-make.exe -f Makefile cmTC_202cf/fast
+        C:/TDM-GCC-64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_202cf.dir\\build.make CMakeFiles/cmTC_202cf.dir/build
+        mingw32-make.exe[1]: Entering directory 'C:/Users/Kurosuba/Kuros/libraries/glfw-3.4/build/CMakeFiles/CMakeScratch/TryCompile-yttjsz'
+        Building C object CMakeFiles/cmTC_202cf.dir/CMakeCCompilerABI.c.obj
+        C:\\TDM-GCC-64\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_202cf.dir\\CMakeCCompilerABI.c.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c"
+        Using built-in specs.
+        COLLECT_GCC=C:\\TDM-GCC-64\\bin\\gcc.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../../../src/gcc-git-10.3.0/configure --build=x86_64-w64-mingw32 --enable-targets=all --enable-languages=ada,c,c++,fortran,jit,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-cxx-flags=-DWINPTHREAD_STATIC --disable-build-with-cxx --disable-build-poststage1-with-cxx --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-filesystem-ts=yes --disable-libstdcxx-pch --enable-libstdcxx-threads --enable-libstdcxx-time=yes --enable-mingw-wildcard --with-gnu-ld --disable-werror --enable-nls --disable-win32-registry --enable-large-address-aware --disable-rpath --disable-symvers --prefix=/mingw64tdm --with-local-prefix=/mingw64tdm --with-pkgversion=tdm64-1 --with-bugurl=https://github.com/jmeubank/tdm-gcc/issues
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 10.3.0 (tdm64-1) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_202cf.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
+         C:/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/cc1.exe -quiet -v -iprefix C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles\\cmTC_202cf.dir\\CMakeCCompilerABI.c.obj -version -o C:\\Users\\Kurosuba\\AppData\\Local\\Temp\\ccvlBhDh.s
+        GNU C17 (tdm64-1) version 10.3.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 10.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.23-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "C:/TDM-GCC-64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/10.3.0/include"
+        ignoring duplicate directory "C:/TDM-GCC-64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include"
+        ignoring duplicate directory "C:/TDM-GCC-64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed"
+        ignoring duplicate directory "C:/TDM-GCC-64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include
+         C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include
+         C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed
+         C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include
+        End of search list.
+        GNU C17 (tdm64-1) version 10.3.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 10.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.23-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 68074fcaab9f6b1377b55f7cea05149b
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_202cf.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
+         C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_202cf.dir\\CMakeCCompilerABI.c.obj C:\\Users\\Kurosuba\\AppData\\Local\\Temp\\ccvlBhDh.s
+        GNU assembler version 2.36.1 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.36.1
+        COMPILER_PATH=C:/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/;C:/TDM-GCC-64/bin/../libexec/gcc/;C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/;C:/TDM-GCC-64/bin/../lib/gcc/;C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib/;C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/;C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_202cf.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
+        Linking C executable cmTC_202cf.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_202cf.dir\\link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=C:\\TDM-GCC-64\\bin\\gcc.exe
+        COLLECT_LTO_WRAPPER=C:/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/lto-wrapper.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../../../src/gcc-git-10.3.0/configure --build=x86_64-w64-mingw32 --enable-targets=all --enable-languages=ada,c,c++,fortran,jit,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-cxx-flags=-DWINPTHREAD_STATIC --disable-build-with-cxx --disable-build-poststage1-with-cxx --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-filesystem-ts=yes --disable-libstdcxx-pch --enable-libstdcxx-threads --enable-libstdcxx-time=yes --enable-mingw-wildcard --with-gnu-ld --disable-werror --enable-nls --disable-win32-registry --enable-large-address-aware --disable-rpath --disable-symvers --prefix=/mingw64tdm --with-local-prefix=/mingw64tdm --with-pkgversion=tdm64-1 --with-bugurl=https://github.com/jmeubank/tdm-gcc/issues
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 10.3.0 (tdm64-1) 
+        COMPILER_PATH=C:/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/;C:/TDM-GCC-64/bin/../libexec/gcc/;C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/;C:/TDM-GCC-64/bin/../lib/gcc/;C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib/;C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/;C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_202cf.exe' '-mtune=generic' '-march=x86-64'
+         C:/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/collect2.exe -plugin C:/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/liblto_plugin-0.dll -plugin-opt=C:/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Kurosuba\\AppData\\Local\\Temp\\ccZrdFxf.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep --exclude-libs=libpthread.a --undefined=__xl_f -Bdynamic -o cmTC_202cf.exe C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtbegin.o -LC:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0 -LC:/TDM-GCC-64/bin/../lib/gcc -LC:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib -LC:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib -LC:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../.. -v --whole-archive CMakeFiles\\cmTC_202cf.dir/objects.a --no-whole-archive --out-implib libcmTC_202cf.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lpthread -lgcc -lkernel32 -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lpthread -lgcc -lkernel32 -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtend.o
+        collect2 version 10.3.0
+        C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/liblto_plugin-0.dll -plugin-opt=C:/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Kurosuba\\AppData\\Local\\Temp\\ccZrdFxf.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep --exclude-libs=libpthread.a --undefined=__xl_f -Bdynamic -o cmTC_202cf.exe C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtbegin.o -LC:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0 -LC:/TDM-GCC-64/bin/../lib/gcc -LC:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib -LC:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib -LC:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../.. -v --whole-archive CMakeFiles\\cmTC_202cf.dir/objects.a --no-whole-archive --out-implib libcmTC_202cf.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lpthread -lgcc -lkernel32 -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lpthread -lgcc -lkernel32 -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtend.o
+        GNU ld (GNU Binutils) 2.36.1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_202cf.exe' '-mtune=generic' '-march=x86-64'
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_202cf.dir/objects.a
+        C:\\TDM-GCC-64\\bin\\ar.exe qc CMakeFiles\\cmTC_202cf.dir/objects.a @CMakeFiles\\cmTC_202cf.dir\\objects1.rsp
+        C:\\TDM-GCC-64\\bin\\gcc.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_202cf.dir/objects.a -Wl,--no-whole-archive -o cmTC_202cf.exe -Wl,--out-implib,libcmTC_202cf.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        mingw32-make.exe[1]: Leaving directory 'C:/Users/Kurosuba/Kuros/libraries/glfw-3.4/build/CMakeFiles/CMakeScratch/TryCompile-yttjsz'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include]
+          add: [C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include]
+          add: [C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed]
+          add: [C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include]
+        end of search list found
+        collapse include dir [C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include] ==> [C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include]
+        collapse include dir [C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include] ==> [C:/TDM-GCC-64/include]
+        collapse include dir [C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed] ==> [C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed]
+        collapse include dir [C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include] ==> [C:/TDM-GCC-64/x86_64-w64-mingw32/include]
+        implicit include dirs: [C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include;C:/TDM-GCC-64/include;C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed;C:/TDM-GCC-64/x86_64-w64-mingw32/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: 'C:/Users/Kurosuba/Kuros/libraries/glfw-3.4/build/CMakeFiles/CMakeScratch/TryCompile-yttjsz']
+        ignore line: []
+        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/TDM-GCC-64/bin/mingw32-make.exe -f Makefile cmTC_202cf/fast]
+        ignore line: [C:/TDM-GCC-64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_202cf.dir\\build.make CMakeFiles/cmTC_202cf.dir/build]
+        ignore line: [mingw32-make.exe[1]: Entering directory 'C:/Users/Kurosuba/Kuros/libraries/glfw-3.4/build/CMakeFiles/CMakeScratch/TryCompile-yttjsz']
+        ignore line: [Building C object CMakeFiles/cmTC_202cf.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [C:\\TDM-GCC-64\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_202cf.dir\\CMakeCCompilerABI.c.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c"]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\TDM-GCC-64\\bin\\gcc.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../../../src/gcc-git-10.3.0/configure --build=x86_64-w64-mingw32 --enable-targets=all --enable-languages=ada,c,c++,fortran,jit,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-cxx-flags=-DWINPTHREAD_STATIC --disable-build-with-cxx --disable-build-poststage1-with-cxx --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-filesystem-ts=yes --disable-libstdcxx-pch --enable-libstdcxx-threads --enable-libstdcxx-time=yes --enable-mingw-wildcard --with-gnu-ld --disable-werror --enable-nls --disable-win32-registry --enable-large-address-aware --disable-rpath --disable-symvers --prefix=/mingw64tdm --with-local-prefix=/mingw64tdm --with-pkgversion=tdm64-1 --with-bugurl=https://github.com/jmeubank/tdm-gcc/issues]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 10.3.0 (tdm64-1) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_202cf.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64']
+        ignore line: [ C:/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/cc1.exe -quiet -v -iprefix C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles\\cmTC_202cf.dir\\CMakeCCompilerABI.c.obj -version -o C:\\Users\\Kurosuba\\AppData\\Local\\Temp\\ccvlBhDh.s]
+        ignore line: [GNU C17 (tdm64-1) version 10.3.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 10.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.23-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "C:/TDM-GCC-64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/10.3.0/include"]
+        ignore line: [ignoring duplicate directory "C:/TDM-GCC-64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include"]
+        ignore line: [ignoring duplicate directory "C:/TDM-GCC-64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "C:/TDM-GCC-64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include]
+        ignore line: [ C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include]
+        ignore line: [ C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed]
+        ignore line: [ C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C17 (tdm64-1) version 10.3.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 10.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.23-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 68074fcaab9f6b1377b55f7cea05149b]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_202cf.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64']
+        ignore line: [ C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_202cf.dir\\CMakeCCompilerABI.c.obj C:\\Users\\Kurosuba\\AppData\\Local\\Temp\\ccvlBhDh.s]
+        ignore line: [GNU assembler version 2.36.1 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.36.1]
+        ignore line: [COMPILER_PATH=C:/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/]
+        ignore line: [C:/TDM-GCC-64/bin/../libexec/gcc/]
+        ignore line: [C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/]
+        ignore line: [C:/TDM-GCC-64/bin/../lib/gcc/]
+        ignore line: [C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib/]
+        ignore line: [C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_202cf.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64']
+        ignore line: [Linking C executable cmTC_202cf.exe]
+        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_202cf.dir\\link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\TDM-GCC-64\\bin\\gcc.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=C:/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/lto-wrapper.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../../../src/gcc-git-10.3.0/configure --build=x86_64-w64-mingw32 --enable-targets=all --enable-languages=ada,c,c++,fortran,jit,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-cxx-flags=-DWINPTHREAD_STATIC --disable-build-with-cxx --disable-build-poststage1-with-cxx --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-filesystem-ts=yes --disable-libstdcxx-pch --enable-libstdcxx-threads --enable-libstdcxx-time=yes --enable-mingw-wildcard --with-gnu-ld --disable-werror --enable-nls --disable-win32-registry --enable-large-address-aware --disable-rpath --disable-symvers --prefix=/mingw64tdm --with-local-prefix=/mingw64tdm --with-pkgversion=tdm64-1 --with-bugurl=https://github.com/jmeubank/tdm-gcc/issues]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 10.3.0 (tdm64-1) ]
+        ignore line: [COMPILER_PATH=C:/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/]
+        ignore line: [C:/TDM-GCC-64/bin/../libexec/gcc/]
+        ignore line: [C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/]
+        ignore line: [C:/TDM-GCC-64/bin/../lib/gcc/]
+        ignore line: [C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib/]
+        ignore line: [C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_202cf.exe' '-mtune=generic' '-march=x86-64']
+        link line: [ C:/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/collect2.exe -plugin C:/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/liblto_plugin-0.dll -plugin-opt=C:/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Kurosuba\\AppData\\Local\\Temp\\ccZrdFxf.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep --exclude-libs=libpthread.a --undefined=__xl_f -Bdynamic -o cmTC_202cf.exe C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtbegin.o -LC:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0 -LC:/TDM-GCC-64/bin/../lib/gcc -LC:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib -LC:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib -LC:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../.. -v --whole-archive CMakeFiles\\cmTC_202cf.dir/objects.a --no-whole-archive --out-implib libcmTC_202cf.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lpthread -lgcc -lkernel32 -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lpthread -lgcc -lkernel32 -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtend.o]
+          arg [C:/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/collect2.exe] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [C:/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/liblto_plugin-0.dll] ==> ignore
+          arg [-plugin-opt=C:/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/lto-wrapper.exe] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\Kurosuba\\AppData\\Local\\Temp\\ccZrdFxf.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+          arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+          arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-m] ==> ignore
+          arg [i386pep] ==> ignore
+          arg [--exclude-libs=libpthread.a] ==> ignore
+          arg [--undefined=__xl_f] ==> ignore
+          arg [-Bdynamic] ==> search dynamic
+          arg [-o] ==> ignore
+          arg [cmTC_202cf.exe] ==> ignore
+          arg [C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
+          arg [C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtbegin.o] ==> obj [C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtbegin.o]
+          arg [-LC:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0] ==> dir [C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0]
+          arg [-LC:/TDM-GCC-64/bin/../lib/gcc] ==> dir [C:/TDM-GCC-64/bin/../lib/gcc]
+          arg [-LC:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib]
+          arg [-LC:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib] ==> dir [C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib]
+          arg [-LC:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib] ==> dir [C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib]
+          arg [-LC:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../..] ==> dir [C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../..]
+          arg [-v] ==> ignore
+          arg [--whole-archive] ==> ignore
+          arg [CMakeFiles\\cmTC_202cf.dir/objects.a] ==> ignore
+          arg [--no-whole-archive] ==> ignore
+          arg [--out-implib] ==> ignore
+          arg [libcmTC_202cf.dll.a] ==> ignore
+          arg [--major-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [--minor-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lpthread] ==> lib [pthread]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lpthread] ==> lib [pthread]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lpthread] ==> lib [pthread]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o] ==> obj [C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o]
+          arg [C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtend.o] ==> obj [C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtend.o]
+        ignore line: [collect2 version 10.3.0]
+        ignore line: [C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/liblto_plugin-0.dll -plugin-opt=C:/TDM-GCC-64/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Kurosuba\\AppData\\Local\\Temp\\ccZrdFxf.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep --exclude-libs=libpthread.a --undefined=__xl_f -Bdynamic -o cmTC_202cf.exe C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtbegin.o -LC:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0 -LC:/TDM-GCC-64/bin/../lib/gcc -LC:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib -LC:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib -LC:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../.. -v --whole-archive CMakeFiles\\cmTC_202cf.dir/objects.a --no-whole-archive --out-implib libcmTC_202cf.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lpthread -lgcc -lkernel32 -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lpthread -lgcc -lkernel32 -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtend.o]
+        linker tool for 'C': C:/TDM-GCC-64/x86_64-w64-mingw32/bin/ld.exe
+        remove lib [msvcrt]
+        remove lib [msvcrt]
+        collapse obj [C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> [C:/TDM-GCC-64/x86_64-w64-mingw32/lib/crt2.o]
+        collapse obj [C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtbegin.o] ==> [C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/crtbegin.o]
+        collapse obj [C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o] ==> [C:/TDM-GCC-64/x86_64-w64-mingw32/lib/default-manifest.o]
+        collapse obj [C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtend.o] ==> [C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/crtend.o]
+        collapse library dir [C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0] ==> [C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0]
+        collapse library dir [C:/TDM-GCC-64/bin/../lib/gcc] ==> [C:/TDM-GCC-64/lib/gcc]
+        collapse library dir [C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> [C:/TDM-GCC-64/x86_64-w64-mingw32/lib]
+        collapse library dir [C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib] ==> [C:/TDM-GCC-64/lib]
+        collapse library dir [C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib] ==> [C:/TDM-GCC-64/x86_64-w64-mingw32/lib]
+        collapse library dir [C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../..] ==> [C:/TDM-GCC-64/lib]
+        implicit libs: [mingw32;gcc;pthread;gcc;kernel32;moldname;mingwex;kernel32;pthread;advapi32;shell32;user32;kernel32;mingw32;gcc;pthread;gcc;kernel32;moldname;mingwex;kernel32]
+        implicit objs: [C:/TDM-GCC-64/x86_64-w64-mingw32/lib/crt2.o;C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/crtbegin.o;C:/TDM-GCC-64/x86_64-w64-mingw32/lib/default-manifest.o;C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/crtend.o]
+        implicit dirs: [C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0;C:/TDM-GCC-64/lib/gcc;C:/TDM-GCC-64/x86_64-w64-mingw32/lib;C:/TDM-GCC-64/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the C compiler's linker: "C:/TDM-GCC-64/x86_64-w64-mingw32/bin/ld.exe" "-v"
+      GNU ld (GNU Binutils) 2.36.1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CheckCSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindThreads.cmake:97 (check_c_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "CMakeLists.txt:60 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/Kurosuba/Kuros/libraries/glfw-3.4/build/CMakeFiles/CMakeScratch/TryCompile-52zp0l"
+      binary: "C:/Users/Kurosuba/Kuros/libraries/glfw-3.4/build/CMakeFiles/CMakeScratch/TryCompile-52zp0l"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/Kurosuba/Kuros/libraries/glfw-3.4/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Kurosuba/Kuros/libraries/glfw-3.4/build/CMakeFiles/CMakeScratch/TryCompile-52zp0l'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/TDM-GCC-64/bin/mingw32-make.exe -f Makefile cmTC_a54a1/fast
+        C:/TDM-GCC-64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_a54a1.dir\\build.make CMakeFiles/cmTC_a54a1.dir/build
+        mingw32-make.exe[1]: Entering directory 'C:/Users/Kurosuba/Kuros/libraries/glfw-3.4/build/CMakeFiles/CMakeScratch/TryCompile-52zp0l'
+        Building C object CMakeFiles/cmTC_a54a1.dir/src.c.obj
+        C:\\TDM-GCC-64\\bin\\gcc.exe -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles\\cmTC_a54a1.dir\\src.c.obj -c C:\\Users\\Kurosuba\\Kuros\\libraries\\glfw-3.4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-52zp0l\\src.c
+        Linking C executable cmTC_a54a1.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_a54a1.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_a54a1.dir/objects.a
+        C:\\TDM-GCC-64\\bin\\ar.exe qc CMakeFiles\\cmTC_a54a1.dir/objects.a @CMakeFiles\\cmTC_a54a1.dir\\objects1.rsp
+        C:\\TDM-GCC-64\\bin\\gcc.exe -Wl,--whole-archive CMakeFiles\\cmTC_a54a1.dir/objects.a -Wl,--no-whole-archive -o cmTC_a54a1.exe -Wl,--out-implib,libcmTC_a54a1.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_a54a1.dir\\linkLibs.rsp
+        mingw32-make.exe[1]: Leaving directory 'C:/Users/Kurosuba/Kuros/libraries/glfw-3.4/build/CMakeFiles/CMakeScratch/TryCompile-52zp0l'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CheckIncludeFile.cmake:165 (try_compile)"
+      - "src/CMakeLists.txt:274 (check_include_file)"
+    checks:
+      - "Looking for dinput.h"
+    directories:
+      source: "C:/Users/Kurosuba/Kuros/libraries/glfw-3.4/build/CMakeFiles/CMakeScratch/TryCompile-y3b9ll"
+      binary: "C:/Users/Kurosuba/Kuros/libraries/glfw-3.4/build/CMakeFiles/CMakeScratch/TryCompile-y3b9ll"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/Kurosuba/Kuros/libraries/glfw-3.4/CMake/modules"
+    buildResult:
+      variable: "DINPUT_H_FOUND"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Kurosuba/Kuros/libraries/glfw-3.4/build/CMakeFiles/CMakeScratch/TryCompile-y3b9ll'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/TDM-GCC-64/bin/mingw32-make.exe -f Makefile cmTC_95d21/fast
+        C:/TDM-GCC-64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_95d21.dir\\build.make CMakeFiles/cmTC_95d21.dir/build
+        mingw32-make.exe[1]: Entering directory 'C:/Users/Kurosuba/Kuros/libraries/glfw-3.4/build/CMakeFiles/CMakeScratch/TryCompile-y3b9ll'
+        Building C object CMakeFiles/cmTC_95d21.dir/CheckIncludeFile.c.obj
+        C:\\TDM-GCC-64\\bin\\gcc.exe    -o CMakeFiles\\cmTC_95d21.dir\\CheckIncludeFile.c.obj -c C:\\Users\\Kurosuba\\Kuros\\libraries\\glfw-3.4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y3b9ll\\CheckIncludeFile.c
+        Linking C executable cmTC_95d21.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_95d21.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_95d21.dir/objects.a
+        C:\\TDM-GCC-64\\bin\\ar.exe qc CMakeFiles\\cmTC_95d21.dir/objects.a @CMakeFiles\\cmTC_95d21.dir\\objects1.rsp
+        C:\\TDM-GCC-64\\bin\\gcc.exe -Wl,--whole-archive CMakeFiles\\cmTC_95d21.dir/objects.a -Wl,--no-whole-archive -o cmTC_95d21.exe -Wl,--out-implib,libcmTC_95d21.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_95d21.dir\\linkLibs.rsp
+        mingw32-make.exe[1]: Leaving directory 'C:/Users/Kurosuba/Kuros/libraries/glfw-3.4/build/CMakeFiles/CMakeScratch/TryCompile-y3b9ll'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CheckIncludeFile.cmake:165 (try_compile)"
+      - "src/CMakeLists.txt:275 (check_include_file)"
+    checks:
+      - "Looking for xinput.h"
+    directories:
+      source: "C:/Users/Kurosuba/Kuros/libraries/glfw-3.4/build/CMakeFiles/CMakeScratch/TryCompile-cw3jw3"
+      binary: "C:/Users/Kurosuba/Kuros/libraries/glfw-3.4/build/CMakeFiles/CMakeScratch/TryCompile-cw3jw3"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/Kurosuba/Kuros/libraries/glfw-3.4/CMake/modules"
+    buildResult:
+      variable: "XINPUT_H_FOUND"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Kurosuba/Kuros/libraries/glfw-3.4/build/CMakeFiles/CMakeScratch/TryCompile-cw3jw3'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/TDM-GCC-64/bin/mingw32-make.exe -f Makefile cmTC_d5b44/fast
+        C:/TDM-GCC-64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_d5b44.dir\\build.make CMakeFiles/cmTC_d5b44.dir/build
+        mingw32-make.exe[1]: Entering directory 'C:/Users/Kurosuba/Kuros/libraries/glfw-3.4/build/CMakeFiles/CMakeScratch/TryCompile-cw3jw3'
+        Building C object CMakeFiles/cmTC_d5b44.dir/CheckIncludeFile.c.obj
+        C:\\TDM-GCC-64\\bin\\gcc.exe    -o CMakeFiles\\cmTC_d5b44.dir\\CheckIncludeFile.c.obj -c C:\\Users\\Kurosuba\\Kuros\\libraries\\glfw-3.4\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cw3jw3\\CheckIncludeFile.c
+        Linking C executable cmTC_d5b44.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_d5b44.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_d5b44.dir/objects.a
+        C:\\TDM-GCC-64\\bin\\ar.exe qc CMakeFiles\\cmTC_d5b44.dir/objects.a @CMakeFiles\\cmTC_d5b44.dir\\objects1.rsp
+        C:\\TDM-GCC-64\\bin\\gcc.exe -Wl,--whole-archive CMakeFiles\\cmTC_d5b44.dir/objects.a -Wl,--no-whole-archive -o cmTC_d5b44.exe -Wl,--out-implib,libcmTC_d5b44.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_d5b44.dir\\linkLibs.rsp
+        mingw32-make.exe[1]: Leaving directory 'C:/Users/Kurosuba/Kuros/libraries/glfw-3.4/build/CMakeFiles/CMakeScratch/TryCompile-cw3jw3'
+        
+      exitCode: 0
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindDoxygen.cmake:753 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindDoxygen.cmake:937 (_Doxygen_find_doxygen)"
+      - "docs/CMakeLists.txt:35 (find_package)"
+    mode: "program"
+    variable: "DOXYGEN_EXECUTABLE"
+    description: "Doxygen documentation generation tool (https://www.doxygen.nl)"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "doxygen"
+    candidate_directories:
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files (x86)/ZeroTier/One/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/"
+      - "C:/TDM-GCC-64/bin/"
+      - "C:/Users/Kurosuba/Assembler/nasm-3.01-win64/nasm-3.01/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Kurosuba/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Users/Kurosuba/AppData/Local/Google/Cloud SDK/google-cloud-sdk/bin/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/GLFW/bin/"
+      - "C:/Program Files (x86)/GLFW/sbin/"
+      - "C:/Program Files (x86)/GLFW/"
+      - "/REGISTRY-NOTFOUND/bin/"
+      - "/Applications/Doxygen.app/Contents/Resources/"
+      - "/Applications/Doxygen.app/Contents/MacOS/"
+      - "/Applications/Utilities/Doxygen.app/Contents/Resources/"
+      - "/Applications/Utilities/Doxygen.app/Contents/MacOS/"
+    searched_directories:
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/doxygen.com"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/doxygen.exe"
+      - "C:/Program Files (x86)/VMware/VMware Workstation/bin/doxygen"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/doxygen.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/doxygen.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/doxygen"
+      - "C:/Windows/System32/doxygen.com"
+      - "C:/Windows/System32/doxygen.exe"
+      - "C:/Windows/System32/doxygen"
+      - "C:/Windows/doxygen.com"
+      - "C:/Windows/doxygen.exe"
+      - "C:/Windows/doxygen"
+      - "C:/Windows/System32/wbem/doxygen.com"
+      - "C:/Windows/System32/wbem/doxygen.exe"
+      - "C:/Windows/System32/wbem/doxygen"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/doxygen.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/doxygen.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/doxygen"
+      - "C:/Windows/System32/OpenSSH/doxygen.com"
+      - "C:/Windows/System32/OpenSSH/doxygen.exe"
+      - "C:/Windows/System32/OpenSSH/doxygen"
+      - "C:/ProgramData/chocolatey/bin/doxygen.com"
+      - "C:/ProgramData/chocolatey/bin/doxygen.exe"
+      - "C:/ProgramData/chocolatey/bin/doxygen"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/doxygen.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/doxygen.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/doxygen"
+      - "C:/Program Files (x86)/ZeroTier/One/doxygen.com"
+      - "C:/Program Files (x86)/ZeroTier/One/doxygen.exe"
+      - "C:/Program Files (x86)/ZeroTier/One/doxygen"
+      - "C:/Program Files/Git/cmd/doxygen.com"
+      - "C:/Program Files/Git/cmd/doxygen.exe"
+      - "C:/Program Files/Git/cmd/doxygen"
+      - "C:/Program Files/Docker/Docker/resources/bin/doxygen.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/doxygen.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/doxygen"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/doxygen.com"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/doxygen.exe"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/doxygen"
+      - "C:/TDM-GCC-64/bin/doxygen.com"
+      - "C:/TDM-GCC-64/bin/doxygen.exe"
+      - "C:/TDM-GCC-64/bin/doxygen"
+      - "C:/Users/Kurosuba/Assembler/nasm-3.01-win64/nasm-3.01/doxygen.com"
+      - "C:/Users/Kurosuba/Assembler/nasm-3.01-win64/nasm-3.01/doxygen.exe"
+      - "C:/Users/Kurosuba/Assembler/nasm-3.01-win64/nasm-3.01/doxygen"
+      - "C:/Program Files/CMake/bin/doxygen.com"
+      - "C:/Program Files/CMake/bin/doxygen.exe"
+      - "C:/Program Files/CMake/bin/doxygen"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Launcher/doxygen.com"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Launcher/doxygen.exe"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Launcher/doxygen"
+      - "C:/Users/Kurosuba/AppData/Local/Microsoft/WindowsApps/doxygen.com"
+      - "C:/Users/Kurosuba/AppData/Local/Microsoft/WindowsApps/doxygen.exe"
+      - "C:/Users/Kurosuba/AppData/Local/Microsoft/WindowsApps/doxygen"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Microsoft VS Code/bin/doxygen.com"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Microsoft VS Code/bin/doxygen.exe"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Microsoft VS Code/bin/doxygen"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Python311/doxygen.com"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Python311/doxygen.exe"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Python311/doxygen"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Python311/Scripts/doxygen.com"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Python311/Scripts/doxygen.exe"
+      - "C:/Users/Kurosuba/AppData/Local/Programs/Python/Python311/Scripts/doxygen"
+      - "C:/Users/Kurosuba/AppData/Local/Google/Cloud SDK/google-cloud-sdk/bin/doxygen.com"
+      - "C:/Users/Kurosuba/AppData/Local/Google/Cloud SDK/google-cloud-sdk/bin/doxygen.exe"
+      - "C:/Users/Kurosuba/AppData/Local/Google/Cloud SDK/google-cloud-sdk/bin/doxygen"
+      - "C:/Program Files/bin/doxygen.com"
+      - "C:/Program Files/bin/doxygen.exe"
+      - "C:/Program Files/bin/doxygen"
+      - "C:/Program Files/sbin/doxygen.com"
+      - "C:/Program Files/sbin/doxygen.exe"
+      - "C:/Program Files/sbin/doxygen"
+      - "C:/Program Files/doxygen.com"
+      - "C:/Program Files/doxygen.exe"
+      - "C:/Program Files/doxygen"
+      - "C:/Program Files (x86)/bin/doxygen.com"
+      - "C:/Program Files (x86)/bin/doxygen.exe"
+      - "C:/Program Files (x86)/bin/doxygen"
+      - "C:/Program Files (x86)/sbin/doxygen.com"
+      - "C:/Program Files (x86)/sbin/doxygen.exe"
+      - "C:/Program Files (x86)/sbin/doxygen"
+      - "C:/Program Files (x86)/doxygen.com"
+      - "C:/Program Files (x86)/doxygen.exe"
+      - "C:/Program Files (x86)/doxygen"
+      - "C:/Program Files/CMake/bin/doxygen.com"
+      - "C:/Program Files/CMake/bin/doxygen.exe"
+      - "C:/Program Files/CMake/bin/doxygen"
+      - "C:/Program Files/CMake/sbin/doxygen.com"
+      - "C:/Program Files/CMake/sbin/doxygen.exe"
+      - "C:/Program Files/CMake/sbin/doxygen"
+      - "C:/Program Files/CMake/doxygen.com"
+      - "C:/Program Files/CMake/doxygen.exe"
+      - "C:/Program Files/CMake/doxygen"
+      - "C:/Program Files (x86)/GLFW/bin/doxygen.com"
+      - "C:/Program Files (x86)/GLFW/bin/doxygen.exe"
+      - "C:/Program Files (x86)/GLFW/bin/doxygen"
+      - "C:/Program Files (x86)/GLFW/sbin/doxygen.com"
+      - "C:/Program Files (x86)/GLFW/sbin/doxygen.exe"
+      - "C:/Program Files (x86)/GLFW/sbin/doxygen"
+      - "C:/Program Files (x86)/GLFW/doxygen.com"
+      - "C:/Program Files (x86)/GLFW/doxygen.exe"
+      - "C:/Program Files (x86)/GLFW/doxygen"
+      - "/REGISTRY-NOTFOUND/bin/doxygen.com"
+      - "/REGISTRY-NOTFOUND/bin/doxygen.exe"
+      - "/REGISTRY-NOTFOUND/bin/doxygen"
+      - "/Applications/Doxygen.app/Contents/Resources/doxygen.com"
+      - "/Applications/Doxygen.app/Contents/Resources/doxygen.exe"
+      - "/Applications/Doxygen.app/Contents/Resources/doxygen"
+      - "/Applications/Doxygen.app/Contents/MacOS/doxygen.com"
+      - "/Applications/Doxygen.app/Contents/MacOS/doxygen.exe"
+      - "/Applications/Doxygen.app/Contents/MacOS/doxygen"
+      - "/Applications/Utilities/Doxygen.app/Contents/Resources/doxygen.com"
+      - "/Applications/Utilities/Doxygen.app/Contents/Resources/doxygen.exe"
+      - "/Applications/Utilities/Doxygen.app/Contents/Resources/doxygen"
+      - "/Applications/Utilities/Doxygen.app/Contents/MacOS/doxygen.com"
+      - "/Applications/Utilities/Doxygen.app/Contents/MacOS/doxygen.exe"
+      - "/Applications/Utilities/Doxygen.app/Contents/MacOS/doxygen"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files (x86)\\ZeroTier\\One\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Cloudflare\\Cloudflare WARP\\"
+        - "C:\\TDM-GCC-64\\bin"
+        - "C:\\Users\\Kurosuba\\Assembler\\nasm-3.01-win64\\nasm-3.01"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Programs\\Python\\Python311\\"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
+        - "C:\\Users\\Kurosuba\\AppData\\Local\\Google\\Cloud SDK\\google-cloud-sdk\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/GLFW"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/GLFW"
+...
