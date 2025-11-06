@@ -7,13 +7,18 @@
             "command": "g++",
             "args": [
                 "${workspaceFolder}/main.cpp",
+                "${workspaceFolder}/graphic.cpp",
+                "${workspaceFolder}/render.cpp",
+                "${workspaceFolder}/world_generate.cpp",
+                "${workspaceFolder}/world.cpp",
+                "${workspaceFolder}/chunk_worker.cpp",
                 "-I${workspaceFolder}/include",
-                "-L${workspaceFolder}/lib",
-                "-lglfw3",
-                "-lopengl32",
-                "-lgdi32",
+                "-lglfw",
+                "-lGL",
+                "-ldl",
+                "-lpthread",
                 "-o",
-                "${workspaceFolder}/main.exe"
+                "${workspaceFolder}/main"
             ],
             "group": {
                 "kind": "build",
